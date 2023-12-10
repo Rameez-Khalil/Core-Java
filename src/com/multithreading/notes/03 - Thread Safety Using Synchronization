@@ -1,0 +1,4 @@
+
+1. When two threads are working/accessing the same data at the same time.
+2. Synchronization of data can help us handling this situation.
+
