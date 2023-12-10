@@ -1,0 +1,29 @@
+1. When we are using our computer, we are using multiple applications at the same time.
+2. These applications are known as processes.
+3. Inside these applications, there may be child processes.
+
+
+CHROME EXAMPLE:
+    Multiple tabs are acting as a child processes.
+    These child processes are known as threads.
+
+
+
+MULTI-THREADING:
+    Multiple processes/threads/lines of codes can be executed at the same time.
+    Each process will have its own execution.
+
+
+
+THREAD EXECUTION / DEADLOCKS:
+    1. When one threads is dependent on another to start exection.
+    2. OUR THREAD CLASS WILL EXTEND JAVA THREAD CLASS WHICH IMPLEMENTS RUNNABLE INTERFACE
+        THIS RUNNABLE INTERFACE HAS AN ABSTRACT run METHOD, WHICH WE NEED TO OVERRIDE.
+
+
+
+THREAD START:
+    1. Its not legal to start the thread more than once.
+    2. If one instance/object is calling the the method (start) then the same cannot call
+    this method, however, this can be achieved by creating a new instance.
+
