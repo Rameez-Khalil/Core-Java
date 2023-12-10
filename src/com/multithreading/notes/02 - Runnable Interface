@@ -1,0 +1,22 @@
+SLEEP:
+    We can sleep the thread for some time.
+    Thread.sleep(milliseconds).
+    Thread.currentThread().getName() //will tell which thread is getting called.
+
+
+EXECUTION ORDER:
+    1. Order of execution is not guaranteed.
+    2. We can set name using Thread.currentThread.setName()
+
+
+
+IF we want to implement a class through a runanble interface.
+
+STEP#1
+create the class implementing RunnableInterace.
+define run method on it.
+
+
+STEP#2
+Create a Thread object and pass the object on it.
+call the start method through it.
