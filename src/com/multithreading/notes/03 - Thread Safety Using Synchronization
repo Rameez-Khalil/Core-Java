@@ -2,3 +2,25 @@
 1. When two threads are working/accessing the same data at the same time.
 2. Synchronization of data can help us handling this situation.
 
+
+3. What happens if two threads are accessing the same system?
+PROCESSOR WORKING UNDER THREAD:
+    At any given point in time, the processor can give control to any one thread.
+    This can be a problem, if one thread is reading the data and one is waiting.
+
+    Value = value + 1.
+    Here we are reading the data from value and then incrementing it by 1.
+    Suppose if two threads are working in parallel, t1 reads the value as 0 and assigns it as 1.
+    The control then shifted towards t2, when t2 came in the value was 1 instead of 0.
+    THIS IS THE ISSUE - DATA INCONSISTENCY.
+
+ATOMICITY: Complete all or nothing - Synchronized keyword.
+    synchronized(this){
+    value = value +1;
+    return value;
+    }
+
+    OR public synchronized int getNext(){
+        value = value+1;
+        return value;
+    }
