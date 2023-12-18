@@ -1,0 +1,19 @@
+With the help of synchronization we put a lock.
+
+Suppose we have a list where one thread is writing and one is reading.
+ConcurrentModificationException.
+
+
+PROJECT:
+1. Product purchase list.
+2. Product sold list.
+
+ArrayList, HashSet, HashMap are not threadsafe.
+This means if one thread is reading then the other cannot write.
+This issue can be solved via join method.
+We cannot use multithreading with arraylist, we need to make sure our data is synched.
+
+
+This can be solved using concurrentCollection, these were meant to be thread safe.
+
+
