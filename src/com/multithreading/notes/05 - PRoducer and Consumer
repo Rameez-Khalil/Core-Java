@@ -1,0 +1,16 @@
+Create two classes Producer and Consumer.
+Producer is going to be a thread therefore both implements Runnable.
+
+This pattern facilitates these two tasks to run properly.
+Cook - Producer.
+Server - Consumer.
+They both share the resource(order shelf).
+Cook will wait if the order shelf is full.
+Server will wait if the order is under process.
+
+APPLICATION:
+    We will be reading questions from user.
+    We will then be answering those questions.
+
+
+
