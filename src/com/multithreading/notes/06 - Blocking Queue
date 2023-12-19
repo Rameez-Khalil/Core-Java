@@ -9,3 +9,4 @@ Therefore, we won't be needing wait and notify methods.
 
 PUT AND TAKE ARE THREAD SAFE METHODS.
 
+THERE COULD BE MULTIPLE PRODUCER AND MULTIPLE CONSUMERS.
