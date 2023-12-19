@@ -1,0 +1,11 @@
+This bocking queue will also be using Producer and Consumer pattern.
+In our previous lecture we utilized wait and notify methods.
+The core of this pattern is a shared data structure.
+
+
+
+An alternative way to perform this operation is to concurrent package.
+Therefore, we won't be needing wait and notify methods.
+
+PUT AND TAKE ARE THREAD SAFE METHODS.
+
