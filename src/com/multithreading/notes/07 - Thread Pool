@@ -1,0 +1,12 @@
+A container containing threads, where the threads are being
+managed
+
+
+We just need to submit our work to the thread, we don't need to get involved, the
+pool will take care of it.
+
+POOL will take care and we just need to give it our work.
+
+
+MESSAGEPROCESSOR - Q/A.
+Executor service will be used to create a thread pool.
