@@ -19,3 +19,12 @@ TYPES OF INHERITANCE:
     3. Multiple  - Not Supported in Java (Ambiguity error).
     4. Hybrid - (Multiple + Hierarchical) Not Supported in Java (Diamond problem).
     5. Hierarchical.
+
+
+
+AMBIGUITY / DIAMOND ERROR:
+    Suppose C class is extending A and B.
+    A and B shares a method with same signature
+    When calling that method from C class, it will get confused.
+
+
