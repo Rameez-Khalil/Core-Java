@@ -14,8 +14,8 @@ DISADVANTAGES:
 
 
 TYPES OF INHERITANCE:
-    1. Single Level.
-    2. Multi-level.
-    3. Multiple  - Not Supported in Java.
-    4. Hybrid - - Not Supported in Java.
-    5. Hierarchical - Not Supported in Java.
+    1. Single Level - B is mapping the pros from A.
+    2. Multi-level - C is mapping from B, and B is mapping from A.
+    3. Multiple  - Not Supported in Java (Ambiguity error).
+    4. Hybrid - (Multiple + Hierarchical) Not Supported in Java (Diamond problem).
+    5. Hierarchical.
