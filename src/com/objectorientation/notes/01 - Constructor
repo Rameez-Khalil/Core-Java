@@ -1,0 +1,15 @@
+Constructors are those functions that have the same name as that of their class names
+They don't have any return type.
+Access Modifiers are allowed - public, protected, private and default.
+
+1. DEFAULT CONSTRUCTOR:
+    Compiler creates it.
+
+2. No-ARG:
+    We create our own default constructor.
+    This becomes the default constructor.
+
+3. Parameterized:
+    Constructor accepting arguments to be initialized.
+
+

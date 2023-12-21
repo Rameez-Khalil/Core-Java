@@ -1,0 +1,21 @@
+
+INHERITANCE:
+    1. Inheritance is about deriving the props. from the corresponding parent and grandparents(if any).
+    2. This creates a blood relationship b/w classes.
+
+
+ADVANTAGES:
+    1. Code Re-usability.
+    2. Polymorphism.
+
+DISADVANTAGES:
+    1. Tightly coupled.
+    2. Change in parent affects its children.
+
+
+TYPES OF INHERITANCE:
+    1. Single Level.
+    2. Multi-level.
+    3. Multiple  - Not Supported in Java.
+    4. Hybrid - - Not Supported in Java.
+    5. Hierarchical - Not Supported in Java.
