@@ -28,3 +28,6 @@ AMBIGUITY / DIAMOND ERROR:
     When calling that method from C class, it will get confused.
 
 
+TYPES OF RELATIONSHIP:
+    HAS-A: Association - > i) Aggregation: Weak bonding ii) Composition: Strong bonding.
+    IS-A: Inheritance.
