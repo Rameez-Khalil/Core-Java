@@ -1,0 +1,11 @@
+ABSTRACTION:
+    Abstraction is all about hiding the implementation.
+    If we are driving the motorbike then we don't care about how the accelerator is working.
+
+    This can be achieved via abstract class /interface.
+
+    1. A method without body is an abstract method.
+    2. Only abstract class can hold an abstract method.
+    3. Abstract methods are meant to be overriden.
+    4. Concrete (normal) methods are allowed.
+    
