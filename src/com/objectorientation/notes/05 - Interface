@@ -1,0 +1,9 @@
+INTERFACE:
+    Interface is a blue print of the class.
+    This defines what a class must do.
+    This helps us to achieve abstraction and loose-coupling.
+
+    1. Prior to java 8, only abstract methods were allowed, but now default, private and static methods
+    are allowed.
+    2. Constant fields are allowed, even if you don't define it final, by default its final
+    3. Cannot create an object, a class has to implement it.
