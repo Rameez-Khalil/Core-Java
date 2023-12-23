@@ -1,0 +1,17 @@
+POLYMORPHISM:
+    An ability of an object to behave differently.
+
+   RUN TIME POLYMORPHISM:
+        Method Overriding.
+        Same Name,
+        Different Class.
+        Same (Number, Type, Sequence) Of Arguments.
+
+   COMPILE TIME POLYMORPHISM:
+        Method Overloading.
+        Same Name.
+        Same Class.
+        Different(Number, Type, Sequence).
+
+
+
