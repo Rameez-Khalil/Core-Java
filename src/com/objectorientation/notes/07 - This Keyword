@@ -1,0 +1,22 @@
+A reference variable which refers to the current object
+This points to the current class instance variable.
+
+USES:
+    1. This can be used to call current class instance variables.
+    2. This can be used to call current class concrete method.
+    3. If we've two constructors then under the first constructor we can
+        call the second constructor by using this().
+         A(parameters){
+            this(); -- this will call the default constructor.
+            //code
+         }
+    4. This keyword can be used to pass an argument.
+        void show1(ClassName obj){
+            sout(****).
+        }
+        void show2(this){
+            show1(this) //this will accept the current class object.
+        }
+
+    5. This can be used to be passed as an argument in the constructor call.
+        Test t = new Test(this).

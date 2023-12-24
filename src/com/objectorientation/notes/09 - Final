@@ -1,0 +1,9 @@
+Final Keyword can be used:
+    To make a variable constant.
+    To make a method not applicable to be over-ridden.
+    To make a class not applicable to give birth to its children (inheritance).
+
+
+
+If we try to change the final variable => Assignment error.
+If we try to change the final class => Compile-Time error.

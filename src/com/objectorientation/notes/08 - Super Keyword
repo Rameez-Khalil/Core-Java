@@ -1,0 +1,10 @@
+Reference variable which refers to the immediate parent.
+If B class is a child element of Class A then B can call super() to get the
+parent class members.
+
+USES:
+NOTE: **HERE PARENT MEANS IMMEDIATE PARENT.
+
+    1. refers to the parent class instance vars.
+    2. Can be used to call parent's class method.
+    3. Can be used to call parent's class constructor.
