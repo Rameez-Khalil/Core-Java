@@ -1,0 +1,41 @@
+STATIC KEYWORD:
+    This is a non access modifier.
+    Class level variables.
+    Cannot be used with local variable
+    Can be attached to:
+        1. Variables.
+        2. Methods.
+        3. Block.
+        4. Nested Class.
+
+
+
+STATIC VARIABLE:
+    Any variable having access modifiers of static.
+        static int a = 20;
+    The reason for creating static var is because of memory efficiency.
+    As long as all the objects are sharing a constant value, we should make
+    that field as static.
+
+
+STATIC METHOD:
+
+    Any method having static mentioned before it becomes a static method.
+    Static methods belong to the class
+    Can be called using dot notation.
+    ClassName.methodName();
+    They are memory efficient.
+
+    CONSTRAINTS OF STATIC METHOD:
+        1. Static methods belongs to the class, and not to the object.
+        2. Static method can be accessed directly by class name.
+        3. Static methods can access only static data. It cannot access non-static data.
+        4. Static methods can call only other static methods and cannot call a non static method.
+        5. Static methods cannot refer to this or super keyword.
+
+STATIC BLOCK:
+    A block of code having static keyword before it.
+    Static block executes automatically when the class is loaded in the memory.
+
+    Static block is used to load the native methods (code written in other language).
+    static block is used to initialize the static vars.
