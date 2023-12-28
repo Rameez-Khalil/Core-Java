@@ -1,0 +1,16 @@
+String pool is a separate memory. This constantly checks whether or not the same content have different vars.
+
+String name = "Rameez"
+String name1 = "Rameez"
+
+The above can be seen as two variables, but they are pointing to the same memory location, change in one var will result
+creation of new object in memory. Therefore strings are immutable, because every time we are making a change,
+we are not changing the actual content, instead we are creating new a object.
+
+
+IMMUTABILITY:
+    String x1 = "x1";
+    String x2 = x1;
+    String x3 = x2;
+
+    If we are making a change in x1, that change won't get reflected in x2 and x3. This is known as immutability.

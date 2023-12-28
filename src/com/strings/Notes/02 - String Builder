@@ -1,0 +1,4 @@
+Since Strings in java are immutable, which means whenever there is a change
+we must create a new string object, string builder helps us with this issue.
+
+
