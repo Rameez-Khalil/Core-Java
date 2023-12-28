@@ -2,3 +2,74 @@ Since Strings in java are immutable, which means whenever there is a change
 we must create a new string object, string builder helps us with this issue.
 
 
+Suppose we need to create hello.
+String str = "h"
+str+"e"
+str+"l"
+str+"l"
+str+"o"
+
+This is time taking and non-memory efficient, we need an alternative.
+
+
+STRING BUILDER:
+    When making a change to a string builder reference var, we don't create
+    new objects after making a change each time.
+
+Method
+Description
+StringBuilder append (String s)
+
+This method appends the mentioned string with the existing string. You can also with arguments like boolean, char, int, double, float, etc.
+
+StringBuilder insert (int offset, String s)
+
+It will insert the mentioned string to the other string from the specified offset position. Like append, you can overload this method with arguments like (int, boolean), (int, int), (int, char), (int, double), (int, float), etc.
+
+StringBuilder replace(int start, int end, String s)
+
+It will replace the original string with the specified string from the start index till the end index.
+
+StringBuilder delete(int start, int end)
+
+This method will delete the string from the mentioned start index till the end index.
+
+StringBuilder reverse()
+
+It will reverse the string.
+
+int capacity()
+
+This will show the current StringBuilder capacity.
+
+void ensureCapacity(int min)
+
+This method ensures that the StringBuilder capacity is at least equal to the mentioned minimum.
+
+char charAt(int index)
+
+It will return the character at the specified index.
+
+int length()
+
+This method is used to return the length (total characters) of the string.
+
+String substring(int start)
+
+Starting from the specified index till the end, this method will return the substring.
+
+String substring(int start, int end)
+
+It will return the substring from the start index till the end index.
+
+int indexOf(String str)
+
+This method will return the index where the first instance of the specified string occurs.
+
+int lastIndexOf(String str)
+
+It will return the index where the specified string occurs the last.
+
+Void trimToSize()
+
+It will attempt to reduce the size of the StringBuilder.
