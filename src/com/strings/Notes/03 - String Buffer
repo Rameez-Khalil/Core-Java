@@ -1,0 +1,4 @@
+String Buffer:
+    Mutable sequence of characters.
+    We can change the contents without making a new object.
+    Thread safe.
