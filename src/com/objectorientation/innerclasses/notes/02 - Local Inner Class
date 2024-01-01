@@ -1,0 +1,36 @@
+LOCAL INNER CLASS:
+    1. We can also define a class inside of a method.
+    void method{
+        class {
+            //fields etc.
+        }
+
+        create an object and use it.
+    }
+    2. These types of classes are used when we are extending/implementing
+    a class and that object has no scope outside of this method.
+
+ANONYMOUS INNER CLASS:
+    Suppose we have an abstract class, and we want to gain a reference var for that
+    We can simply make use of a nameless class by overriding a method present
+    in an abstract class.
+
+    abstract class AbstractCLass{
+        //methods
+    }
+
+    class Outer{
+        void show(){
+            AbstractClass abs = new AbstractClass(){
+                @Override
+                // here we override the method.
+            };
+
+            abs.<method-name>();
+        }
+
+    }
+
+    2. This above example is also applicable for an interface.
+    3. WE ARE NOT MAKING AN OBJECT, WE ARE DEFINING AN ANONYMOUS CLASS THAT IS EXTENDING/IMPLEMENTING
+    A CLASS/INTERFACE.
