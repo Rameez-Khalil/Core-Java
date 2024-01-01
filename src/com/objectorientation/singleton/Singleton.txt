@@ -1,0 +1,10 @@
+SINGLETON CLASS
+    1. A class which can create one object, and multiple objects aren't allowed.
+    2. Private constructor, therefore we cannot create an object
+    3. Static methods are used to create an instance.
+
+
+    Suppose we want to create an object of a coffee machine.
+        - private variables.
+        - private constructors.
+        - static method to return the reference.
