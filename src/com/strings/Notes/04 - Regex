@@ -1,0 +1,9 @@
+REGEX - Regular expressions.
+Available under java.util.regex
+
+This carries the following:
+    Pattern.
+    Matcher.
+    PatternSyntaxException.
+
+

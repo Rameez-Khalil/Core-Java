@@ -1,0 +1,15 @@
+INNER CLASS:
+    A class within another class.
+    When we are trying to reduce the complexity of class.
+    An interface can also be defined under the class.
+
+
+NESTED INNER CLASS:
+    An inner class is also a member of the parent class.
+    Outer class members are accessible within inner class.
+    Outer class can access inner class members via object.
+    Directly using inner class is of no use until/unless you have an object
+    of outer class.
+
+    Outer.Inner objectVar = new Outer().new Inner();
+    Outer$inner.class will be generated.
