@@ -1,0 +1,4 @@
+SINGLE RESPONSIBILITY:
+        Each class should have one single purpose, and shouldn't be involved
+        in unnecessary things.
+        
