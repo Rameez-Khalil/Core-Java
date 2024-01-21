@@ -1,4 +1,19 @@
 SINGLE RESPONSIBILITY:
         Each class should have one single purpose, and shouldn't be involved
         in unnecessary things.
+
+EXAMPLE
+    Suppose we have an Employee class and there is a functionality
+    of isPromotionDue needs to be added.
+    Instead of adding this functionality inside of an Employee class,
+    we will add another class and embed this functionality into that.
+
+    class Emp{
+        // code.
+    }
+    class Promotion{
+        public bool promotion(Emp emp){
+            //code logic
+        }
+    }
         
