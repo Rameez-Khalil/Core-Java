@@ -1,0 +1,4 @@
+Dependency Injection
+    Passing the dependency into the dependent constructor
+    while the object is being instantiated.
+

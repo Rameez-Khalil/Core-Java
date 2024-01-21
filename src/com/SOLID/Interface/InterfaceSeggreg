@@ -1,0 +1,5 @@
+Client should not be forced to use unnecessary methods.
+Suppose, we have two methods, generateExcel, and generatePDF.
+If our client wants to only perform/operate on generatePDF
+then the main interface should be broken down into these two interfaces.
+And client then can implement that.

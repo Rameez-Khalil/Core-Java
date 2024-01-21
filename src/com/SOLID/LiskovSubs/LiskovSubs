@@ -1,0 +1,7 @@
+LISKOV SUBSTITUTION:
+    Subtypes must be substitutable for super types.
+    If you have an Animal class then your child class must implement
+    all non-private methods, so it can enhance the functionality and not reduce it.
+
+
+
