@@ -1,0 +1,23 @@
+OPEN CLOSED:
+        Classes should be opened for extension, but
+        closed for modifications.
+
+OPEN
+    A class is considered to be open if its functionality
+    can be enhanced by its subclasses.
+
+CLOSED
+     A class is considered to be closed if changes
+     are guaranteed to not happen.
+
+
+
+Suppose we are trying we've different shapes, and we are trying to calculate areas for each shape provided, one way to do it would be to create a class which contains methods calculateCir, calculateRect etc. This is not a good approach, as whenever there is a new requirement, we will have to create a class for the requirement and we then will need to make changes to the code base as well.
+    Therfore, we are violating Open Closed principle,
+    as we are modifying the class.
+
+
+
+Create an interface, which will contain calculateArea.
+Ever other class will have to implement this interface.
+
