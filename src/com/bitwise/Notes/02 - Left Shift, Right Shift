@@ -1,0 +1,24 @@
+LEFT SHIFT:
+    All the bits are shifted by place-1 to the left direction.
+    The vacant place gets filled by 0.
+    This will multiply the number by the number of times we will perform shifting.
+    x = 10 ; z = x<<1 => x = 20.
+
+RIGHT SHIFT:
+    All the bits are shifted by place-1 to the right direction.
+    The vacant place gets filled by 0
+    This will divide the number.
+    x = 10 ; z = x>>10 =>  z=5.
+
+UNSIGNED RIGHT SHIFT:
+    Negative numbers are represented as 2's complement.
+    1's complement refers to the inversion of bits.
+    The number becomes positive.
+
+
+NOT:
+    Every bit is inverted.
+    To know the actual number we must find the 2's complement.
+    The number gets added by 1, and add a negative symbol.
+    For example: 10 will become -11.
+    

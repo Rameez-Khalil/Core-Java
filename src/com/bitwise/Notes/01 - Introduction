@@ -1,0 +1,17 @@
+BITWISE INTRODUCTION:
+
+    These are generally faster than the general operators.
+    AND & (if both bits are 1 then and only then it will result will be 1).
+    OR | (if either of the provided values is 1 then it will be 1).
+    NOT ~
+    XOR ^ (When one of them is 1 then it will be 1).
+    RIGHT SHIFT >>
+    UNSIGNED RIGHT SHIFT >>>
+    LEFT SHIFT <<
+
+
+AND OPERATION:
+     x = 10 and y  = 6; x & y = 2.
+
+OR Operation:
+    x = 10 and y = 6; x|y =
