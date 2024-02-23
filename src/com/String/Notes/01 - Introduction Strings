@@ -1,0 +1,9 @@
+STRING:
+    It is a class and not a primitive data type.
+    Collection of characters.
+    EXAMPLE:
+    String str = "Java"
+    str is a reference and Java will be stored as char array.
+
+
+

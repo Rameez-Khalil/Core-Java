@@ -1,0 +1,11 @@
+indexOf(str, index)
+toCharArray().
+charAt()
+concat()
+replace()
+substring()
+compareTo()
+startsWith()
+endsWith()
+equalsIgnoreCase()
+

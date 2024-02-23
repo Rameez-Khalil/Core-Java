@@ -1,0 +1,6 @@
+REGULAR EXPRESSIONS:
+    . : Any character.
+    [abc]: Exactly given letters.
+    [abc][def]: Either first or second set.
+    [^abc]: Except abc.
+    
