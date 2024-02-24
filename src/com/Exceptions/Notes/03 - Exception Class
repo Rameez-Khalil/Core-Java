@@ -1,0 +1,9 @@
+EXCEPTION CLASS:
+        This class is a form of throwable class in java and indicates conditions an application
+        might want to catch.
+
+
+METHODS:
+    getMessage();
+    toString();
+    printStackTrace();

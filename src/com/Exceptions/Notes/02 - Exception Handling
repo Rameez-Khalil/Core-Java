@@ -1,0 +1,24 @@
+EXCEPTION HANDLING:
+    Whenever the program crashes, there should be a normal termination taking place along with the
+    proper message for the user to be guided into the right direction.
+
+
+TRY-CATCH CONSTRUCT:
+    This construct is handy when dealing with exception handling.
+    This construct allows us to efficiently catch the exception as soon as it gets satisfied.
+    try{
+        int number1 = 10;
+        int numer2 = 0;
+
+        sout(number1/number2); //Arithmetic exception
+
+    }
+
+    catch(Arithmetic Exception){
+        //Here we can guide the user what went wrong.
+    }
+
+
+FINALLY BLOCK:
+    Finally block will always get executed.
+    This is used for cleanup process.

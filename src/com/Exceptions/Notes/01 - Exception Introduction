@@ -1,0 +1,12 @@
+Programmers do face Syntax and Logical errors.
+Users face runtime exceptions and these are known to be as Exceptions.
+
+
+Runtime Errors:
+    Runtime errors are generally caused at the user's end, and usually occur when there is a require resource
+    is missing.
+    E.g. We cannot expect the printer to execute properly with no pages being available to be used.
+
+    We as a programmer will write best program to run in all possible scenarios except for these cases.
+    The cases should be handled with the help of exception handling.
+
