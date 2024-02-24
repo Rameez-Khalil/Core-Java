@@ -3,4 +3,30 @@ REGULAR EXPRESSIONS:
     [abc]: Exactly given letters.
     [abc][def]: Either first or second set.
     [^abc]: Except abc.
-    
+    [a-z1-7]: a-z or 1-7.
+    A | B : A or B.
+    XZ : Exactly XZ.
+
+    we use the method matches to perform validations.
+
+
+META CHARACTERS:
+    These are meant for symbols.
+    \d : Digits.
+    \D : Not Digit.
+    \s : Space.
+    \S : Not Space.
+    \w : Alphabets or digits.
+    \W : Neither alphabet nor digits.
+
+
+QUANTIFIERS:
+    * : 0 or more.
+    + : one or more.
+    ? : 0 or 1 time.
+    {x} : x times.
+    {x,y} : between x and y.
+
+
+
+
